@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0%;
+    text-decoration: none;
+}
+
+body {
+    background-color: mediumturquoise;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(32, 140, 247);
+    position: fixed;
+}
+
+.nav h1 {
+    color: white;
+    margin: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 7px;
+}
+
+.nav ul li {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-right: 25px;
+    float: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.nav li:hover {
+    color: #2f3640;
+    border-radius: 7px;
+}
+
+.nav ul {
+    margin-top: -28px;
+}
+
+.img img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 80px;
+}
+
+h2 {
+    color: black;
+    overflow: hidden;
+    border-right: 1px solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+button {
+    background-color: #2f3640;
+    border: 2px solid rgb(32, 140, 247);
+    height: 35px;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(32, 140, 247);
+    border: 3px solid #2f3640;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.container {
+    border: 1px solid grey;
+    width: fit-content;
+    margin: 5px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.container img {
+    width: 160px;
+    height: 160px;
+    border-radius: 6px;
+}
+
+.container p,
+h3,
+img {
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.footer {
+    color: white;
+    background-color: #2f3640;
+    width: 100%;
+}
+
+.footer p a {
+    color: white;
+}
+
+.myname h2 {
+    font-size: 35px;
+}
+
+.footer p {
+    padding: 18px;
+}
+
+.v1 {
+    visibility: visible;
+}
+
+.v2 {
+    visibility: hidden;
+}
+
+@media(max-width: 768px) {
+    /* .nav ul {
+                        position: fixed;
+                        left: 0;
+                        width: 25%;
+                        height: 100%;
+                        background-color: rgb(87, 120, 252);
+                        transition: 0.8s;
+                        left: -100%
+                    }
+                    ul.slide {
+                        left: 0;
+                        transition: 0.8s;
+                    }
+                    .nav ul li {
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                        margin: 0%;
+                        font-family: "Roboto", sans-serif;
+                        font-weight: 100;
+                    }
+                    .hamburger {
+                        float: right;
+                        cursor: pointer;
+                        margin-left: 5px;
+                        margin-top: -30px;
+                    }
+                    .hamburger .line {
+                        background-color: white;
+                        width: 25px;
+                        height: 5px;
+                        margin-bottom: 5px;
+                        display: block;
+                        margin-right: 15px;
+                        cursor: pointer;
+                        font-weight: 100;
+                    }
+                    .nav ul li a:hover {
+                        background-color: #2f3640;
+                        color: white;
+                        padding-left: 35px;
+                        padding-right: 35px;
+                        border-radius: 5px;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                    }*/
+    .container img {
+        width: 155px;
+        height: 340px;
+        border-radius: 6px;
+    }
+    .v2 {
+        visibility: visible;
+    }
+    .v1 {
+        visibility: hidden;
+    }
+}
